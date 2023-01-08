@@ -1,14 +1,7 @@
 # Discord_Assign_Role
 This Discord bot will do the following: 
-1. assign role based on a text file: names_and_roles.txt
-2. after execute the command: ?role
-   - bot will cycle all of the roles in the text file for the server
-   - if the name in the text file does not have the role, it will be added.
-   - it will also check existing members with the role, if the name not in the text file, the role will be removed.
-
-example of the text file:<br>
-name, role<br>
-name1#1111,role1<br>
-name2#1112,role1<br>
-name3#2113,role2<br>
-name4#4114,role4<br>
+1. assign role based on API
+2. bot execute once every 12 hours
+   - bot will cycle all of the roles from API
+   - if the name in the API does not have the role, it will be added.
+   - it will also check existing members with the role, if the name not in the text file, the role will be removed (currently disabled).
